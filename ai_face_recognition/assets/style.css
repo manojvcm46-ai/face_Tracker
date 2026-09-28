@@ -1,0 +1,19 @@
+/* Custom styling for VisionGuard AI Face Recognition System */
+:root {
+    --bg-primary: #0b0f19;
+    --bg-card: rgba(30, 41, 59, 0.7);
+    --accent-green: #22c55e;
+    --accent-red: #ef4444;
+    --accent-cyan: #38bdf8;
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+}
+
+.hud-panel {
+    background: var(--bg-card);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(8px);
+}
